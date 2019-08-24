@@ -1,0 +1,25 @@
+<!ELEMENT Company (C_info,CEO)>
+<!ELEMENT Web_Department (Post,(Employees)+)>
+<!ELEMENT Project_Manager (Mobile_Department,Web_Department)>
+<!ELEMENT Departments (Research_Development,Marketing,Hr_Department,Project_Manager)>
+<!ELEMENT CEO (Departments)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT telephone_number (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+<!ELEMENT C_info (name,address,telephone_number,website,logo)>
+<!ELEMENT Research_Development (Employees)>
+<!ELEMENT Marketing (Employees)+>
+<!ELEMENT Hr_Department (Employees)+>
+<!ELEMENT Mobile_Department (Employees)+>
+<!ELEMENT Post (#PCDATA)>
+<!ELEMENT fname (#PCDATA)>
+<!ATTLIST fname Title CDATA #REQUIRED>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT Employees (fname,lname,Address,email?,salary)>
+<!ATTLIST Employees Id CDATA #REQUIRED>
+<!ATTLIST Employees	Emp_Type CDATA #REQUIRED>

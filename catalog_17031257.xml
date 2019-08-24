@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href ="catalog_17031257.css"?>
+<!DOCTYPE Company SYSTEM "catalog_17031257.dtd">
+<Company>
+  <C_info>
+    <name>IBM</name>
+    <address>New Jersey</address>
+    <telephone_number>+662527281</telephone_number>
+    <website>www.IBM.com</website>
+    <logo/>
+  </C_info>
+  <CEO>
+    <Departments>
+      <Research_Development>
+        <Employees Id="44" Emp_Type="Part Time">
+          <fname Title="Ms.">Nancy</fname>
+          <lname>Williams</lname>
+          <Address>Las Vegas</Address>
+          <email>nandoman@yahoo.com</email>
+          <salary>133322</salary>
+        </Employees>
+        <Employees Id="102" Emp_Type="Part Time">
+          <fname Title="Mr">Paul</fname>
+          <lname>Maccartney</lname>
+          <Address>Los Angeles</Address>
+          <email>mac.paul@gmail.com</email>
+          <salary>19922</salary>
+        </Employees>
+      </Research_Development>
+      <Marketing>
+        <Employees Id="25" Emp_Type="Full Time">
+          <fname Title="Mr.">Marco </fname>
+          <lname>Reus</lname>
+          <Address>Germay</Address>
+          <email>Reus.Mar22@yahoo.com</email>
+          <salary>0</salary>
+        </Employees>
+        <Employees Id="101" Emp_Type="Full Time">
+          <fname Title="Mr">Baba</fname>
+          <lname>Blacksheep</lname>
+          <Address>Barnyard</Address>
+          <email>yard.121@gmail.com</email>
+          <salary>199922</salary>
+        </Employees>
+      </Marketing>
+      <Hr_Department>
+        <Employees Id="123" Emp_Type="Full Time">
+          <fname Title="Mr.">Zakk</fname>
+          <lname>Wylde</lname>
+          <Address>Weidlant</Address>
+          <email>vood.jack@hotmail.com</email>
+          <salary>133322</salary>
+        </Employees>
+        <Employees Id="1244" Emp_Type="Full Time">
+          <fname Title="Ms">Linda</fname>
+          <lname>Rosie</lname>
+          <Address>Phildelphia</Address>
+          <email>Sonice@rocketmail.com</email>
+          <salary>13333</salary>
+        </Employees>
+      </Hr_Department>
+      <Project_Manager>
+        <Mobile_Department>
+          <Employees Id="26" Emp_Type="Part Time">
+            <fname Title="Mr.">Eddie</fname>
+            <lname>Vedder</lname>
+            <Address>Seaatle</Address>
+            <email>Edi3.Veddie@rocketmail.com</email>
+            <salary>123333</salary>
+          </Employees>
+          <Employees Id="102" Emp_Type="Part Time">
+            <fname Title="Mr">Paul</fname>
+            <lname>Maccartney</lname>
+            <Address>Los Angeles</Address>
+            <email>mac.paul@gmail.com</email>
+            <salary>19922</salary>
+          </Employees>
+        </Mobile_Department>
+        <Web_Department>
+          <Post>Team Leader</Post>
+          <Employees Id="23" Emp_Type="Part Time">
+            <fname Title="Mr">Sebastian</fname>
+            <lname>Rudy</lname>
+            <Address>Jakarta</Address>
+            <email>Rudy1.seb@rocketmail.com</email>
+            <salary>123000</salary>
+          </Employees>
+          <Employees Id="104" Emp_Type="Full Time">
+            <fname Title="Mr">Yingwie</fname>
+            <lname>Malmsteen</lname>
+            <Address>Westminster</Address>
+            <email>malmsteen.121@yahoo.com</email>
+            <salary>14422</salary>
+          </Employees>
+        </Web_Department>
+      </Project_Manager>
+    </Departments>
+  </CEO>
+</Company>

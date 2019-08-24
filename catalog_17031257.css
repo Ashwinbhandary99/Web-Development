@@ -1,0 +1,172 @@
+Company {font: bold;
+		text-align: center;
+		background-image: url(qw.png);
+		display: block;
+		background-attachment:fixed;
+		background-size:cover;
+		width:1200px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	
+
+Employees {
+    display:block;
+    width: 500px;
+    font-size: 10pt;
+    border: 1px solid black;
+    margin-top: 20px;
+	font-color:black;
+}
+
+C_info {
+		text-align:center;
+		width:200px;
+		padding:10px; 
+		float: center;
+		border-bottom:4px;
+		font-size: 20pt;
+		margin-left: 68px;
+		margin-right: 68px;
+		margin-top:20px;
+		margin-bottom:20px;
+		
+		}
+
+
+		
+		
+		name,address,telephone_number,website{
+			
+			display: block;
+			font-family:"Times New Roman", Times, serif;
+			font-size: 18pt;
+			font-weight:bold;
+			margin-left: 20px;
+			text-align:center;
+			color:rgb(38,4,4);
+
+		
+		}
+		
+		
+	logo{  
+		
+		    margin-top: -217px;
+			background-image: url(logo.png);
+			float: left;
+			width: 210px;
+			height: 150px;
+			position: relative;
+			background-size: cover;
+			
+			
+		
+		}
+		CEO::before{
+			content:"Chairman Ginni Rometty";
+			Font-weight:Bold;
+			font-size:29px;
+			float:left;
+			margin-bottom:40pt;
+			margin-left:38pt;
+			color:rgb(122,15,15);
+		}
+		Research_Development::before{
+			content:"Research_Development";
+			margin-top:20pt;
+			color:rgb(66,75,244);
+			font:Arial;
+		}
+		
+        Resource_Department{margin-left: 30px;
+		text-align: right;
+		}
+		Marketing::before{
+			content:"Marketing";
+			color:rgb(66,75,244);
+			margin-top:20pt;
+		}
+fname, lname, Address,email,salary{
+			width: 500px;
+			padding-top:2px;
+			display:block;
+			}
+	
+	Marketing{
+		
+		display:block; 
+		width: 200px; 
+		font-family: Arial, Helvetica, Sans-serif; 
+        font-size: 18pt;
+		margin-top:20pt;
+		
+		
+		
+	}
+	Post{
+			
+			padding-top:3px;
+			margin-top:10px;
+			display:block;
+			color:rgb(66,75,244);
+			
+			
+		}
+	
+	address, salary, e-mail {padding-bottom:auto; }
+	
+	
+Departments{display: block; 
+	width: 200px; 
+	font-family: Arial, Helvetica, Sans-serif; 
+    font-size: 18pt;
+    margin-left: 50px;}
+	
+    Hr_Department::before{
+			
+		content:"Hr_Department";
+		color:rgb(66,75,244);
+		
+		}
+    Hr_Department{
+        display: block; width: 200px; font-family: Arial, Helvetica, Sans-serif; 
+        font-size: 18pt;
+		margin-top:20pt;
+		
+    }
+		
+		Project_Manager::before{
+			margin-top:20pt;
+			content:"Project_Manager";
+			color:rgb(66,75,244);
+		
+		}
+        Project_Manager{ 
+			width: 200px;
+			font-family: Arial, Helvetica, Sans-serif; 
+            font-size: 18pt;
+            margin-left: 20px;
+			margin-top: 20pt;
+		}
+            Mobile_Department::before{
+			
+			content:"Mobile_Department";
+			color:rgb(244,66,66);
+			}
+			Mobile_Department{
+				
+				margin:20pt;
+				
+			}
+			Web_Department::before{
+			margin-bottom:20pt;
+			content:"Web_Department";
+			color:rgb(244,66,66);
+			margin-top:20pt;}
+			Web_Department{
+				
+				margin-top:20pt;
+				
+			}
